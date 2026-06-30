@@ -44,5 +44,5 @@ print(f'Total of valid scores: {sum(valid)}')
 print(f'Count of valid scores: {len(valid)}')
 
 #Value Error
-#line 37 (fixed)
+#line 37 score = int(s) (fixed)
 #cannot convert string to int because string is not a number
