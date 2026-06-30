@@ -38,7 +38,7 @@ for i, s in enumerate(scores):
         print(f'Score [{i}]: {score}')
         valid.append(score)        
     except ValueError:
-        print(f'[index {i}] Skipped bad score: {s}')
+        print(f"[index {i}] Skipped bad score: '{s}'")
 
 print(f'Total of valid scores: {sum(valid)}')
 print(f'Count of valid scores: {len(valid)}')
