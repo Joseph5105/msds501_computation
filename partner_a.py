@@ -38,3 +38,9 @@ for i, r in enumerate(readings):
 
 average = sum(valid) / len(valid)
 print(f'Average of valid readings: {round(average, 2)}')
+
+
+#Answers:
+# File "/Users/josephlacap/MastersSchool/Code/msds501_computation/partner_a.py", line 35, in <module>
+#    temp = float(r)           # <-- this line crashes on bad strings
+#ValueError: could not convert string to float: 'N/A'
