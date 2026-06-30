@@ -42,3 +42,7 @@ for i, s in enumerate(scores):
 
 print(f'Total of valid scores: {sum(valid)}')
 print(f'Count of valid scores: {len(valid)}')
+
+#Value Error
+#line 37 (fixed)
+#cannot convert string to int because string is not a number
